@@ -18,15 +18,15 @@
 
   <div class="mb-3">
     <label for="codigo" class="form-label">Código do Produto</label>
-    <input type="text" class="form-control" id="codigo" name="codigo">
+    <input type="text" class="form-control" id="codigo" name="codigo" required>
   </div>
   <div class="mb-3">
     <label for="nome" class="form-label">Nome</label>
-    <input type="text" class="form-control" id="nome" name="nome">
+    <input type="text" class="form-control" id="nome" name="nome" required>
   </div>
   <div class="mb-3">
     <label for="preco" class="form-label">Preço</label>
-    <input type="number" class="form-control" id="preco" name="preco">
+    <input type="number" class="form-control" id="preco" name="preco" required>
   </div>
   <div class="mb-3 botoes">
     <input type="reset" name="limpar" value="Limpar" class="btn btn-danger btn-form">
