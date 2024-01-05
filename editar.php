@@ -11,7 +11,7 @@ require_once "conexao.php";
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  
+<span id="btnMudarTema"><button class="btn btn-dark" id="mudarTema">Mudar Tema</button></span>
     <main>
     <section class="texto">
         <h1>Edição de Produtos</h1>
@@ -52,6 +52,6 @@ require_once "conexao.php";
 <?php }?>
 
 
-
+<script src="js/darkmode.js"></script>
 </body>
 </html>

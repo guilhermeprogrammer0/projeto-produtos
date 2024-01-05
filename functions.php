@@ -24,11 +24,6 @@ function cadastrar($conexao,$codigo,$nome,$preco){
 }
 }
 function alterar($conexao,$codigo,$nome,$preco,$id){
-    /*$sql_verificar = "SELECT codigo from produtos WHERE codigo='$codigo'";
-    $sql_verificado = mysqli_query($conexao,$sql_verificar);
-    $qtd = mysqli_num_rows($sql_verificado);
-    $linha = $sql_verificado->fetch_assoc();
-    $codi = $linha['codigo'];*/
         $sql_alterar = "UPDATE produtos set codigo='$codigo', nome='$nome', preco='$preco' WHERE id_produto='$id'";
         $sql = mysqli_query($conexao,$sql_alterar);
         if($sql){
@@ -44,6 +39,7 @@ function alterar($conexao,$codigo,$nome,$preco,$id){
            
         }
     }
+
 
 
 

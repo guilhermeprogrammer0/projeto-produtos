@@ -22,7 +22,7 @@ main{
     justify-content: center;
     align-items: center;
     height:400px;
-    width:50%;
+    width:40%;
     border-top-left-radius: 0.8em;
     border-bottom-left-radius: 0.8em;
 }
@@ -38,7 +38,7 @@ main{
     padding:2em;
     border-top-right-radius: 0.8em;
     border-bottom-right-radius: 0.8em;
-    width:50%;
+    width:60%;
 }
 .mb-3{
     width:100%;
@@ -78,4 +78,16 @@ span{
 }
 th{
     text-align: center;
+}
+#btnMudarTema{
+    display:flex;
+    justify-content: flex-end;
+}
+#btnMudarTema .btn{
+    width:50px;
+    font-size: 10px;
+    border-radius:0px;
+}
+.dark{
+    background-color:#343840;
 }
