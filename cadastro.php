@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <span id="btnMudarTema"><button class="btn btn-dark" id="mudarTema">Mudar Tema</button></span>
+    <span id="btnMudarTema"><p id="mudarTema">Mudar Tema</p></span>
     <main>
       <section class="texto">
         <h1>Cadastro de Produtos</h1>
