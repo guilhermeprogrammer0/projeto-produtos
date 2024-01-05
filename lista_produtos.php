@@ -13,13 +13,11 @@ require_once "conexao.php";
 <body>
     
 
-    <header>
+<main>
+      <section class="texto">
         <h1>Lista de Produtos</h1>
-    </header>
-    <span>
-    <a href="cadastro.php" class="btn btn-link"> Cadastro de Produtos </a>
-</span>
-    <section class="lista">
+      </section>
+      <section class="dados lista_dados">
     <table class="table table-striped">
   <thead>
     <tr>
@@ -45,9 +43,14 @@ require_once "conexao.php";
     }
     ?>
     </tr>
+
   </tbody>
 </table>
-</section>
+  </section>
+  </main>
+<span>
+    <a href="cadastro.php" class="btn btn-link"> Cadastro de Produtos </a>
+</span>
 
 <script src="js/acoes.js"></script>
         

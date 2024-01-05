@@ -9,13 +9,12 @@
 </head>
 <body>
     
-
-    <header>
+    <main>
+      <section class="texto">
         <h1>Cadastro de Produtos</h1>
-    </header>
-    <section>
+      </section>
+      <section class="dados">
     <form action="cadastro.php" method="POST">
-
   <div class="mb-3">
     <label for="codigo" class="form-label">Código do Produto</label>
     <input type="text" class="form-control" id="codigo" name="codigo" required>
@@ -26,15 +25,16 @@
   </div>
   <div class="mb-3">
     <label for="preco" class="form-label">Preço</label>
-    <input type="number" class="form-control" id="preco" name="preco" required>
+    <input type="text" class="form-control" id="preco" name="preco" required>
   </div>
   <div class="mb-3 botoes">
     <input type="reset" name="limpar" value="Limpar" class="btn btn-danger btn-form">
     <input type="submit" name="enviar" value="Salvar" class="btn btn-success btn-form">
-    
+
 </div>
 </form>
-</section>
+<section>
+</main>
 <span>
     <a href="lista_produtos.php" class="btn btn-link btn-span"> Lista de Produtos </a>
 </span>

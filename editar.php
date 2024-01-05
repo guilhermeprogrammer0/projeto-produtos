@@ -11,12 +11,12 @@ require_once "conexao.php";
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-
-    <header>
-        <h1>Editar Produto</h1>
-    </header>
-    <section>
+  
+    <main>
+    <section class="texto">
+        <h1>Edição de Produtos</h1>
+      </section>
+      <section class="dados">
     <form action="editar_produto.php" method="POST">
         <?php
         $sql = "SELECT * from produtos WHERE id_produto=$_REQUEST[id]";
@@ -36,7 +36,7 @@ require_once "conexao.php";
   </div>
   <div class="mb-3">
     <label for="preco" class="form-label">Preço</label>
-    <input type="number" class="form-control" id="preco" name="preco"  value="<?php echo $linha['preco'];?>">
+    <input type="text" class="form-control" id="preco" name="preco"  value="<?php echo $linha['preco'];?>">
   </div>
   <div class="mb-3 botoes">
     <input type="reset" name="limpar" value="Limpar" class="btn btn-danger btn-form">
@@ -44,7 +44,8 @@ require_once "conexao.php";
    
 </div>
 </form>
-</section>
+        </section>
+        </main>
 <span>
     <a href="lista_produtos.php" class="btn btn-link btn-span"> Lista de Produtos </a>
 </span>
