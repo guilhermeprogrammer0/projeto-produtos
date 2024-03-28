@@ -49,7 +49,7 @@ require_once "conexao.php";
   </section>
   </main>
 <span>
-    <a href="cadastro.php" class="btn btn-link"> Cadastro de Produtos </a>
+    <a href="cadastro.php" class="btn btn-link btn-span"> Cadastro de Produtos </a>
 </span>
 
 <script src="js/acoes.js"></script>
