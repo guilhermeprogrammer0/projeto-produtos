@@ -34,9 +34,8 @@ main{
 }
 .paragrafos p{
     padding:12px;
-    font-size: 1.em;
+    font-size: 1em;
     text-align: justify;
-   
 }
 .texto h1{
     font-family: 'Montserrat';
@@ -120,6 +119,14 @@ th{
         width:100%;
         height: 200px;
         border-radius: 0em;
+    }
+    .paragrafos{
+        width:100%;
+        border-radius: 0em;
+        height:auto;
+    }
+    .paragrafos p{
+        font-size: 0.9em;
     }
     .dados{
         width:100%;
