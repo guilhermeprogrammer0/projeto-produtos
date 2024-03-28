@@ -37,6 +37,7 @@
 </main>
 <span>
     <a href="lista_produtos.php" class="btn btn-link btn-span"> Lista de Produtos </a>
+    <a href="index.php" class="btn btn-link btn-span"> Início</a>
 </span>
         <?php
         error_reporting(0);

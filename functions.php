@@ -39,10 +39,6 @@ function alterar($conexao,$codigo,$nome,$preco,$id){
            
         }
     }
-
-
-
-
 function excluir($conexao,$id){
     $sql_exluir = "DELETE FROM produtos WHERE id_produto='$id'";
     $sql = mysqli_query($conexao,$sql_exluir);

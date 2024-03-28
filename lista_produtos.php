@@ -36,7 +36,7 @@ require_once "conexao.php";
         <tr>
             <td><?php echo $linha['codigo'];?></td>
             <td><?php echo $linha['nome'];?></td>
-            <td><?php echo $linha['preco'];?></td>
+            <td><?php echo 'R$' . number_format($linha['preco'],2,',','.');?></td>
             <td><button class="btn btn-warning" onclick="alterar(<?php echo $linha['id_produto'];?>)">Alterar </button></td>
             <td><button class="btn btn-danger" id="excluir" onclick="excluir(<?php echo $linha['id_produto'];?>)">Excluir </button></td>
             <?php

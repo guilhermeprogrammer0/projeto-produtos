@@ -21,7 +21,7 @@ require_once "conexao.php";
         <?php
         $sql = "SELECT * from produtos WHERE id_produto=$_REQUEST[id]";
         $sql_lista = mysqli_query($conexao, $sql);
-        while ($linha = mysqli_fetch_array($sql_lista)){
+        $linha = mysqli_fetch_array($sql_lista)
         ?>
     <div class="mb-3">
     <input type="hidden" class="form-control" id="codigo" name="id_produto" value="<?php echo $linha['id_produto'];?>">
@@ -49,8 +49,6 @@ require_once "conexao.php";
 <span>
     <a href="lista_produtos.php" class="btn btn-link btn-span"> Lista de Produtos </a>
 </span>
-<?php }?>
-
 
 <script src="js/darkmode.js"></script>
 </body>
